@@ -532,7 +532,7 @@ footer .designed a{
 		font-size:18px;		
 	}
 	.fix{
-		margin-top:20px;
+		margin-top:35px;
 	}
 }
         </style>
