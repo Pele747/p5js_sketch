@@ -531,6 +531,9 @@ footer .designed a{
 	#side-nav a,#side-nav .fa-times{
 		font-size:18px;		
 	}
+	
+}
+@ media(max-width: 400px){
 	.fix{
 		margin-top:35px;
 	}
