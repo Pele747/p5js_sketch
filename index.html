@@ -1,13 +1,331 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/addons/p5.dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/addons/p5.sound.min.js"></script>
-    <script src="sketch.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <style> body {padding: 0; margin: 0;} </style>
-  </head>
-  <body>
-  </body>
+	<head>
+		<title>Delicious Site</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+		<header>	
+			<div class="bg-color">
+				<div class="container">
+					<a href="#" id="menu" onClick="openNav('side-nav')"><i class="fa fa-bars" aria-hidden="true"></i></a>				
+					<div id="side-nav">
+						<i class="fa fa-times" aria-hidden="true" onClick="closeNav('side-nav')"></i>
+						<a href="#">About</a>
+						<a href="#">Event</a>
+						<a href="#">Menu</a>
+						<a href="#">Book a table</a>
+					</div>
+				</div>
+				<div id="content-wrap">
+					<h1>Delicious</h1>
+					<h2>Food To fit your lifestyle & health.</h2>
+					<p>Specialized in Indian Cuisine!!</p>
+				</div>
+			</div>		
+		</header>
+	<!--End of Header-->
+	
+		<section id="about">
+			<div class="container">
+				<div class="main-text">
+					<h1>Delicious Journey</h1>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+					<br>nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+				</div>
+				<div class="wrapper">
+					<div class="about-info box">
+						<h2>vel illum qui dolorem eum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
+						<ul>
+							<li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+							<li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
+							<li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed</li>
+							<li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>			
+						</ul>
+					</div>
+					
+					<div class="box img-frame">
+						<img src="img/res01.jpg">
+					</div>
+				</div>
+			</div>		
+		</section>
+	<!--End of about-->
+		<section id="events">
+			<div class="bg-color">
+				<div class="container">
+					<div class="main-text">
+						<h1>Up Coming events</h1>
+						<p>Decorations 100% complete here</p>
+					</div>
+					
+					<div class="row">
+						<div class="left-image">
+							<img src="img/res02.jpg">
+						</div>
+						
+						<div class="details">
+							<div class="content-holder">
+								<h2>Joyful party</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus quaerat praesentium id expedita nihil illo accusantium, tempora.</p>
+								<address>
+									<strong>Place: </strong>
+									1612 Collins Str, Victoria 8007 <br>
+									<strong>Time: </strong>
+									07:30pm
+									
+								</address>
+								
+								<a href="#" id="btn-link">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!--End of events-->
+		
+		<section id="menu-list">
+			<div class="container">
+				<div class="main-text">
+					<h1>Menu List</h1>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy<br>nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+				</div>
+				<ul>
+					<li><a href="#" class="active">Show All</a></li>
+					<li><a href="#"> Breakfast</a></li>
+					<li><a href="#">Lunch</a></li>
+					<li><a href="#">Dinner</a></li>
+				</ul>
+				
+				<div class="row">
+					<div class="full-menu">
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+					
+					</div>
+					
+					<div class="full-menu">
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+						
+						<div class="menu-items">
+							<div class="items">
+								<a href="#">FOOD ITEM NAME</a>
+								<span class="dots"></span>
+								<span class="item-price">$20.99</span>
+							</div>
+							<div class="bottom-text">
+								Neque porro quisquam est qui dolorem
+							</div>			
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+	<!--End of Menu list-->
+
+		<section id="contact">
+			<div class="container">
+				<div class="main-text">
+					<h1>Book Your table</h1>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy<br>
+					nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+				</div>
+				<div class="row">
+					<div class="contact-info">
+						<div class="media">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<div class="media-body">
+								<h4>Phone Numbers</h4>
+								<p>+440 875369208 - Phone Booking</p>
+							</div>
+						</div>
+						
+						
+						
+						<div class="media">
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<div class="media-body">
+								<h4>Opening Hours</h4>
+								<p>Monday to Friday 09.00 - 24:00</p>
+								<p>Friday and Sunday 08:00 - 03.00</p>
+							</div>
+						</div>
+					
+					</div>
+					
+					<div class="form">
+						<form>
+							<div class="row">
+								<div class="column">
+									<div>
+										<input type="text" placeholder="Your Name">
+									</div>
+									<div>
+										<input type="email" placeholder="Your E-mail">
+									</div>
+									<div>
+										<input type="number" placeholder="Phone">
+									</div>
+								</div>
+								
+								<div class="column">
+									<div>
+										<input type="date" >
+									</div>
+									<div>
+										<input type="time" >
+									</div>
+									<div>
+										<input type="text" placeholder="People">
+									</div>
+								</div>
+								<textarea placeholder="Message"></textarea>
+								<button class="book-btn">Book Table</button>
+							</div>		
+								
+						</form>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+	<!--End of contact-->
+		<footer>
+			<div class="container">
+				<h4>Delicious</h4>
+				<address>324 Ellte Road<br>Delhi, DL 110013</address>
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+				<p class="copyright"> &copy; Delicious Theme. All Rights Reserved
+				<p class="designed">Designed by Free <a href="#">Bootstrap Themes</a></p>
+			</div>
+		</footer>		
+		<script src="javascript.js"></script>
+	</body>	
 </html>
+	
