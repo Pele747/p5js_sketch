@@ -531,9 +531,7 @@ footer .designed a{
 	#side-nav a,#side-nav .fa-times{
 		font-size:18px;		
 	}
-	#menu-list .fix{
-		margin-top:20px;
-	}
+	
 }
 		</style>
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
@@ -632,7 +630,7 @@ footer .designed a{
 					<li><a href="#" class="active">Show All</a></li>
 					<li><a href="#"> Breakfast</a></li>
 					<li><a href="#">Lunch</a></li>
-					<li class="fix" ><a href="#">Dinner</a></li>
+					<li style="margin-top:20px" ><a href="#">Dinner</a></li>
 				</ul>
 				
 				<div class="row">
