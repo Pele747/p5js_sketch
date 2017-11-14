@@ -4,7 +4,7 @@
 		<title>Delicious Site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
-            *{
+			*{
 	margin:0;
 	padding:0;
 	-webkit-box-sizing: border-box;
@@ -531,14 +531,11 @@ footer .designed a{
 	#side-nav a,#side-nav .fa-times{
 		font-size:18px;		
 	}
-	
-}
-@media(max-width: 400px){
 	.fix{
-		margin-top:35px;
+		margin-top:20px;
 	}
 }
-        </style>
+		</style>
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
