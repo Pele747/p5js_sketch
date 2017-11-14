@@ -533,7 +533,7 @@ footer .designed a{
 	}
 	
 }
-@ media(max-width: 400px){
+@media(max-width: 400px){
 	.fix{
 		margin-top:35px;
 	}
