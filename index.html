@@ -10,7 +10,9 @@
 	    <p id='pp'>Pela747</p>
       <script>
 	var a = document.getElementById('pp');
-	      a.innerHTML = 'aaa';
+	   a.addEventListener('click', () => {
+			navigator.vibrate(10000);
+		})
 	if(navigator.vibrate) {
 		a.textContent = 'pekipeki';
 		navigator.vibrate(10000);
