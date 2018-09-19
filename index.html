@@ -11,11 +11,11 @@
       <script>
 	var a = document.getElementById('pp');
 	   a.addEventListener('click', () => {
-			navigator.vibrate(10000);
+			navigator.vibrate(1000,2000,500,100,200,300);
 	});
 	if(navigator.vibrate) {
 		a.textContent = 'pekipeki';
-		navigator.vibrate(1000,2000,500,100,200,300);
+		
 	}    else {
 		a.textContent = 'pekipeki123';	
 	}
